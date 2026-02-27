@@ -129,7 +129,7 @@
 2.  Перевірка значень через `echo`:
         echo $var_name1 $var_name2 $var_name3
     
-![s1]()
+![s1](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/1.jpg)
 
 3.  Задання псевдонімів:
         alias mycal1='cal 2007'
@@ -143,7 +143,7 @@
     mycal3
     
 
-![s2]()
+![s2](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/2.jpg)
 
 5.  Перегляд списку існуючих аліасів:
         alias
@@ -168,14 +168,14 @@
         echo "2008"
     }
     
-![s3]()
+![s3](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/3.jpg)
 
 2.  Запуск створеної функції:
         students_report
     
 
 
-![s4]()
+![s4](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/4.jpg)
 
 ---
 
@@ -187,14 +187,14 @@
     Символ \$ використовується для того, щоб надрукувати сам знак долара, ігноруючи його функцію виклику змінної. Одинарні лапки блокують підстановку.
         echo "'We create such variables as' \$var_name1, \$var_name2, \$var_name3, 'which stored our names' $var_name1, $var_name2, $var_name3"
     
-![s5]()
+![s5](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/5.jpg)
 
 2.  Підстановка команд:
         echo "'We create such Aliases as' mycal1, mycal2, mycal3, 'which can show our calendars:' $(mycal1 | head -1), $(mycal2 | head -1), $(mycal3 | head -1)"
     
     *Примітка: Утиліта head -1 відсікає все, крім першого рядка з виводу, залишаючи лише рік.*
 
-![s6]()
+![s6](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/6.jpg)
 
 ---
 
@@ -207,7 +207,7 @@
         var_name1=Ваня; var_name2=Олег; var_name3=Яна; echo "--- Завдання 2.1 ---"; echo "Імена студентів:"; echo $var_name1 $var_name2 $var_name3; echo "--- Завдання 2.2 ---"; echo "Імена студентів:"; echo "$var_name1"; echo "$var_name2"; echo "$var_name3"; echo "Роки народження:"; echo "2007"; echo "2007"; echo "2008"
     
 
-![s7]()
+![s7](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/7.jpg)
 
 ---
 
@@ -219,7 +219,7 @@
         man uname
     
 
-![s8]()
+![s8](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/8.jpg)
 
 2.  Аналіз системи з різними ключами `uname`:
         uname
@@ -229,7 +229,7 @@
     uname -a
     
 
-![s9]()
+![s9](https://github.com/iharecko1385/KKZ/blob/main/Laba3OC/screenshots/9.jpg)
 
 ---
 
