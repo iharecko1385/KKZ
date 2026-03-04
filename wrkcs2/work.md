@@ -1,5 +1,5 @@
 # Work-case №2
-## Виконав Харечко 
+## Виконав: Харечко 
 
 ## Glossary
 
@@ -12,51 +12,51 @@
 
 ## 1. Інсталяція гіпервізора
 
-У рамках цього завдання ми застосували гіпервізор 2-го типу — Oracle VM VirtualBox.
+У рамках цього завдання я застосував гіпервізор 2-го типу — Oracle VM VirtualBox.
 
-![Головне вікно VirtualBox](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/01_VirtualBox_Main.jpg)
+![Головне вікно VirtualBox](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/01_VirtualBox_Main.jpg)
 
 ## 2. Основні операції в гіпервізорі (перша віртуальна машина)
 
 ### Ініціалізація та параметри
-Ми згенерували віртуальну машину з назвою **Ubuntu_Desktop_1**. Їй було призначено 25 ГБ на жорсткому диску, 2 процесорні ядра та 4 ГБ оперативної пам'яті для забезпечення безперебійного функціонування системи.
+Я створив віртуальну машину з назвою **Ubuntu_Desktop_1**. Їй було призначено 25 ГБ на жорсткому диску, 2 процесорні ядра та 4 ГБ оперативної пам'яті для забезпечення безперебійного функціонування системи.
 
-![Налаштування ВМ](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/02_VM_Settings.jpg)
+![Налаштування ВМ](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/02_VM_Settings.jpg)
 
 ### Мережеві налаштування
 Вибрано конфігурацію «Мережевий міст» (Bridged Adapter). Це дозволяє віртуальній машині підключатися до локальної мережі як повноцінний самостійний вузол.
 
-![Тип мережі](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/03_Network_Type.jpg)
-![Мережевий міст](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/04_Network_Bridged.jpg)
+![Тип мережі](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/03_Network_Type.jpg)
+![Мережевий міст](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/04_Network_Bridged.jpg)
 
 ### Робота з USB-пристроями
-Ми ввімкнули підтримку контролера USB 3.0 (xHCI) і налаштували фільтр, щоб флеш-накопичувач TOSHIBA USB FLASH DRIVE монтувався до ВМ автоматично.
+Я ввімкнув підтримку контролера USB 3.0 (xHCI) і налаштував фільтр, щоб флеш-накопичувач TOSHIBA USB FLASH DRIVE монтувався до ВМ автоматично.
 
-![USB Накопичувач](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/05_USB_Flash.jpg)
+![USB Накопичувач](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/05_USB_Flash.jpg)
 
 ## 3. Інсталяція ОС GNU/Linux (з графічним інтерфейсом)
 
 На створену ВМ було розгорнуто **Ubuntu Desktop 25.10** із базовою графічною оболонкою. По завершенню встановлення операційна система була повністю готова до використання через графічний інтерфейс (GUI).
 
-![Встановлення Ubuntu](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/06_Ubuntu_Install.jpg)
-![Робочий стіл Ubuntu](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/07_Ubuntu_Desktop.jpg)
+![Встановлення Ubuntu](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/06_Ubuntu_Install.jpg)
+![Робочий стіл Ubuntu](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/07_Ubuntu_Desktop.jpg)
 
 ## 4. Взаємодія з другою ВМ (CLI та GUI)
 
 ### Базове налаштування
-Для другої машини ми обрали **Ubuntu Server**, яка за замовчуванням керується виключно через інтерфейс командного рядка (CLI).
+Для другої машини я обрав **Ubuntu Server**, яка за замовчуванням керується виключно через інтерфейс командного рядка (CLI).
 
-![Server CLI](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/08_Server_CLI.jpg)
+![Server CLI](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/08_Server_CLI.jpg)
 
 ### Розгортання GNOME
-За допомогою команди (`sudo apt install ubuntu-desktop`) було додано середовище GNOME, що дало змогу користуватися повноцінним графічним управлінням.
+За допомогою команди (`sudo apt install ubuntu-desktop`) я додав середовище GNOME, що дало змогу користуватися повноцінним графічним управлінням.
 
-![Server GNOME](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/09_Server_GNOME.jpg)
+![Server GNOME](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/09_Server_GNOME.jpg)
 
 ### Інтеграція XFCE
-Як альтернативу ми також інсталювали більш легку оболонку XFCE (`sudo apt install xfce4`).
+Як альтернативу я також інсталював більш легку оболонку XFCE (`sudo apt install xfce4`).
 
-![Server XFCE](https://github.com/iharecko1385/KKZ/blob/main/wrkcs2/screenshot/10_Server_XFCE.jpg)
+![Server XFCE](https://raw.githubusercontent.com/unforgivingbunny/collegework/main/os/workcases/wc2/img/10_Server_XFCE.jpg)
 
 ### Аналіз GNOME та XFCE
 * **GNOME** — вирізняється сучасним дизайном і багатим функціоналом (наприклад, зручним пошуком та розширеним управлінням вікнами), але при цьому потребує значно більше ресурсів комп'ютера.
@@ -64,4 +64,4 @@
 
 ## Conclusion
 
-In the course of this practical assignment, we utilized Oracle VM VirtualBox to set up two distinct virtual machines. We successfully configured the allocated hardware, enabled bridged networking, and set up USB passthrough. The first VM ran Ubuntu Desktop 25.10 as the primary graphical OS, whereas the second was initially installed as a purely CLI-based Ubuntu Server. Upon testing both GNOME and XFCE desktop environments on the server, we concluded that XFCE is much more resource-efficient and faster. Conversely, GNOME delivers a highly modern and feature-heavy interface, though it demands considerably more system resources.
+In the course of this practical assignment, I utilized Oracle VM VirtualBox to set up two distinct virtual machines. I successfully configured the allocated hardware, enabled bridged networking, and set up USB passthrough. The first VM ran Ubuntu Desktop 25.10 as the primary graphical OS, whereas the second was initially installed as a purely CLI-based Ubuntu Server. Upon testing both GNOME and XFCE desktop environments on the server, I concluded that XFCE is much more resource-efficient and faster. Conversely, GNOME delivers a highly modern and feature-heavy interface, though it demands considerably more system resources.
